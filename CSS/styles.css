@@ -12,7 +12,7 @@ html{
     box-sizing: border-box;
     scroll-snap-align: y mandatory;
     overflow-y: scroll;
-    background-color: bisque;
+    background-color: #f1f3f6;
 }
 
 /*Estilo con tipo de fuente y tamaño de fuente general*/
@@ -157,18 +157,6 @@ h2{
   color: #fff; /* Color del texto blanco */
 }
 
-/* Estilos para el título de la cabecera del formulario */
-.form-header h2::after {
-  content: ''; /* Contenido generado */
-  display: block; /* Muestra como bloque */
-  width: 7rem; /* Ancho de 12rem */
-  height: 0.5rem; /* Altura de 0.5rem */
-  background-color: #6c63ff; /* Color de fondo azul */
-  margin: 0 auto; /* Márgenes automáticos a los lados para centrar horizontalmente */
-  position: absolute; /* Posición absoluta con respecto al contenedor padre */
-  border-radius: 10px; /* Borde redondeado de 10px */
-}
-
 /* Estilos para el grupo de entrada en el formulario */
 .input-group {
   display: flex; /* Usa flexbox para organizar los elementos secundarios */
@@ -203,44 +191,6 @@ h2{
   outline: 1px solid #6c63ff; /* Borde de 1px sólido en color azul cuando la entrada está enfocada */
 }
 
-/* Estilos para la etiqueta y el título de género */
-.input-box label, .gender-title h4 {
-  font-size: 1.6rem; /* Tamaño de la fuente de 1.6rem */
-  font-weight: 800; /* Grosor de la fuente 800 */
-  color: #000000c0; /* Color del texto con opacidad */
-}
-
-/* Estilos para el marcador de posición de la entrada */
-.input-box input::placeholder {
-  color: #000000be; /* Color del marcador de posición con opacidad */
-}
-
-/* Estilos para el grupo de género */
-.gender-group {
-  display: flex; /* Usa flexbox para organizar los elementos secundarios */
-  justify-content: space-between; /* Espaciado uniforme entre los elementos secundarios */
-  margin-top: 0.62rem; /* Margen superior de 0.62rem */
-  padding: 0 0.5rem; /* Relleno de 0 en la parte superior e inferior, 0.5rem en los lados */
-}
-
-/* Estilos para la entrada de género */
-.gender-input {
-  display: flex; /* Usa flexbox para organizar los elementos secundarios */
-  align-items: center; /* Centra verticalmente los elementos secundarios */
-}
-
-/* Estilos para la entrada de género en el grupo de género */
-.gender-input input {
-  margin-right: 0.35rem; /* Margen derecho de 0.35rem */
-}
-
-/* Estilos para la etiqueta de la entrada de género */
-.gender-input label {
-  font-size: 1.4rem; /* Tamaño de la fuente de 1.4rem */
-  font-weight: 600; /* Grosor de la fuente 600 */
-  color: #000000c0; /* Color del texto con opacidad */
-}
-
 /* Estilos para el botón de continuar */
 .continue-button {
   width: 100%; /* Ancho del 100% del contenedor padre */
@@ -253,6 +203,15 @@ h2{
   margin-top: 2.5rem; /* Margen superior de 2.5rem */
   border: none; /* Sin borde */
   background-color: #6c63ff; /* Color de fondo azul */
+  padding: 0.4rem 1rem; /* Relleno de 0.4rem en la parte superior e inferior, 1rem en los lados */
+  border-radius: 5px; /* Borde redondeado de 5px */
+  cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+}
+
+.continue-button-c a{
+  width: 100%; /* Ancho del 100% del contenedor padre */
+  margin-top: 2.5rem; /* Margen superior de 2.5rem */
+  border: none; /* Sin borde */
   padding: 0.4rem 1rem; /* Relleno de 0.4rem en la parte superior e inferior, 1rem en los lados */
   border-radius: 5px; /* Borde redondeado de 5px */
   cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
@@ -318,5 +277,6 @@ footer{
 
 .footer-f p{
     margin: 0;
+    
 }
 /*fin estilos footer*/
