@@ -206,20 +206,35 @@ h2{
   padding: 0.4rem 1rem; /* Relleno de 0.4rem en la parte superior e inferior, 1rem en los lados */
   border-radius: 5px; /* Borde redondeado de 5px */
   cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+  text-decoration: none;
 }
 
-.continue-button-c a{
+.continue-button-c button {
+  text-decoration:  none;
+  color: blue;
   width: 100%; /* Ancho del 100% del contenedor padre */
   margin-top: 2.5rem; /* Margen superior de 2.5rem */
   border: none; /* Sin borde */
   padding: 0.4rem 1rem; /* Relleno de 0.4rem en la parte superior e inferior, 1rem en los lados */
   border-radius: 5px; /* Borde redondeado de 5px */
   cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+  
+}
+
+.continue-button-d button{
+  width: 100%; /* Ancho del 100% del contenedor padre */
+  margin-top: 2.5rem; /* Margen superior de 2.5rem */
+  border: none; /* Sin borde */
+  background-color: #41b729; /* Color de fondo azul */
+  padding: 0.4rem 1rem; /* Relleno de 0.4rem en la parte superior e inferior, 1rem en los lados */
+  border-radius: 5px; /* Borde redondeado de 5px */
+  cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+  text-decoration: none;
 }
 
 /* Estilos para el estado de 'hover' del botón de continuar */
 .continue-button button:hover {
-  background-color: #6b63fff1; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  background-color: #80accf; /* Cambia el color de fondo al pasar el ratón sobre el botón */
 }
 
 /* Estilos para el enlace dentro del botón de continuar */
@@ -259,24 +274,3 @@ h2{
 .form {
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.1); /* Sombra con color rgba para la opacidad */
 }
-
-/*footer*/
-
-footer{
-    text-align: center;
-    background-color: rgb(160, 155, 11);
-    color: black;
-}
-
-.footer-f {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 5vh;
-}
-
-.footer-f p{
-    margin: 0;
-    
-}
-/*fin estilos footer*/
